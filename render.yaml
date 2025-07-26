@@ -1,3 +1,11 @@
-envVars:
-  - key: PYTHON_VERSION
-    value: 3.11.9
+services:
+  - type: web
+    name: face-attendance-server
+    env: docker
+    plan: free
+    branch: main
+    dockerfilePath: Dockerfile
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
