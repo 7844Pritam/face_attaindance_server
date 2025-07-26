@@ -4,4 +4,4 @@ Flask==2.3.3
 numpy==1.24.4
 Werkzeug==2.3.8
 face_recognition @ https://github.com/ageitgey/face_recognition/archive/refs/heads/master.zip
-dlib @ https://files.pythonhosted.org/packages/8e/f1/2e5e476e8121084e1f7fd9601e519772e6c5df28c3143f53d90aa1e831bd/dlib-19.24.0-cp311-cp311-manylinux_2_17_x86_64.whl
+dlib==19.24.0
