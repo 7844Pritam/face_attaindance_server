@@ -3,7 +3,7 @@ import face_recognition
 from werkzeug.utils import secure_filename
 
 DATASET_PATH = './attendance_faces'
-
+# khgjgj
 def load_known_faces(path=DATASET_PATH):
     encodings, names = [], []
     for root, _, files in os.walk(path):
